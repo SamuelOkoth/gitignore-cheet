@@ -9,3 +9,4 @@
 | ** | Matches directories and their sub-directories | to ignore files with '.tmp' extension in any directory, we will use `**/*.tmp` |
 | ! | includes a file or a directory that would otherwise be ignored | if file1.txt was in node_modules and node_modules folder is in gitignore but we don't want to ignore that file, we will do `!node_modules/file1.txt` This will ignore all the everything in node_modules except file1.txt |
 | name[abc].file | [set] matches a single character in the specified set of characters (in this case either a, b, or c) | /namea.file, /nameb.file |
+| *.log | will match all files with the .log extension in any directory | For example, *.log |
